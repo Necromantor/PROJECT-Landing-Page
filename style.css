@@ -140,7 +140,7 @@ button:hover {
 
 .subsection-container {
     display: flex;
-    background-color: #E5E7EB;
+    background-color: white;
     justify-content: center;
     gap: 52px;
     padding-bottom: 128px;
@@ -161,12 +161,43 @@ h2 {
 }
 
 .subsection-header {
-    background-color: #E5E7EB;
+    background-color: white;
 }
 
 .text {
     color: black;
     text-align: center;
+}
+
+
+/* || Quote Section || */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.quote-text {
+    display: flex;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    max-width: 700px;
+}
+
+.quote-credit {
+    display: flex;
+    font-size: small;
+    font-weight: 600;
+    color: black;
+    margin-left: 450px;
+    margin-top: 12px;
+    font-family: sans-serif;
 }
 
 /* || Footer || */
